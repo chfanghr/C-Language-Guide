@@ -1,6 +1,6 @@
-## C语言的一个简单实例
+## Chapter1 C语言的一个简单实例
 &emsp;&emsp;在信息化、智能化的世界里,可能很早很早 我们就听过许多IT类的名词,C语言也在其中,我们侃侃而谈,到底C程序是什么样子？让我们先看简单的一个例子:
-### example:src/hello_world.c
+### example:src/Chapter1.c
 ```C
 /*一个简单的C程序*/
 #include <stdio.h> /* 包含另一个文件 */
@@ -12,8 +12,8 @@ int main(void)/*主函数*/
 ```
 &emsp;&emsp;然后我们调用编译器编译这个源文件并执行它
 ```shell
-$ cc hello_world.c -o hello_world #编译
-$ ./hello_world #执行
+$ cc Chapter1.c -o Chapter1 #编译
+$ ./Chapter1 #执行
 Hello World #我们想让计算机输出的字符串
 #成功了没,有没有成就感(手动滑稽)
 ```
@@ -62,3 +62,6 @@ int main(void) /*主函数*/
 &emsp;&emsp;结束的花括号,函数名后`{`和`}`之间的部分称之为函数体. 
 
 &emsp;&emsp;好的，这就是我们的第一个简单的C程序以及其简单的介绍，希望大家好好理解并消化，更详细的讲解我们将会在下节展开！
+
+---
+2018.7.28
