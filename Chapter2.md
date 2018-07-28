@@ -148,10 +148,8 @@ num = 1； // =  （赋值运算符）
 七. printf（）函数 
 
    
-printf ("Hello!");
-printf ("I am dotcpp.com\n");
-printf ("My birthday is %d\n", num);
-
+printf("Hello World\n");
+printf("%d\n",num);
     
 
 所有这些行都使用了 C语言的一个标准函数：printf（）。圆括号表明 printf 是一个函数名。圆括号中包含的内容是从函数 main（）传递到函数 printf（）的信息。例如，第一行把 Hello! 传递给 printf（）函数。 这样的信息被称为参数（argument），更完整的名称是函数的实际参数（actual argument）。printf（）函数如何处理这个参数？程序将识别两个双引号之间的内容并把它们显示在屏幕上。 
@@ -161,8 +159,7 @@ printf ("My birthday is %d\n", num);
 这样就解释了三个 printf（）语句只产生两行输出的原因：第一个 printf指令中没有换行字符，而第二个和第三个都有。 
 最后一个 printf（）行中又有一个奇怪的问题：当输出这一行时 %d 起什么作用？回忆一下，这一行的输出结果是： 
 
-
-My birthday is 2014
+100
 
     
 
