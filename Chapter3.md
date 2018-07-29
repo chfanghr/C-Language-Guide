@@ -51,7 +51,7 @@ Chapter3_1.c: In function ‘main’:
 Chapter3_1.c:6:6: error: assignment of read-only variable ‘a’
      a=99;//修改a的量
 ```
-&emsp;&emsp;编译器报错了...编译失败了<br>
+&emsp;&emsp;于是编译器报错了...编译失败了<br>
 &emsp;&emsp;为啥?<br>
 &emsp;&emsp;其实`const`是C语言的一个关键字,用来在声明一个量时表明这是一个常量.因此,当我们试图修改常量a时产生了一个语法错误,导致编译失败.
 
