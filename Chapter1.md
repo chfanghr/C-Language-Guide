@@ -1,6 +1,6 @@
 ## Chapter1 C语言的一个简单实例
 &emsp;&emsp;在信息化、智能化的世界里,可能很早很早 我们就听过许多IT类的名词,C语言也在其中,我们侃侃而谈,到底C程序是什么样子？让我们先看简单的一个例子:
-* example:src/Chapter1.c
+* [example:src/Chapter1.c](src/Chapter1.c)
 ```C
 /*一个简单的C程序*/
 #include <stdio.h> /* 包含另一个文件 */
