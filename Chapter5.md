@@ -34,5 +34,73 @@ num=2014；
 ### 增量和减量运算符： `++`和`--` 
 &emsp;&emsp;“增量运算符”(increment operator)完成简单的任务，即将其操作数的值增加1。这个运算符以两种方式出现。在第一种方式中，`++`出现在它作用的变量的前面，这是前缀(prefix)模式.在第二种方式中，`++`出现在它作用的变量的后面，这是后缀(postfix)模式。这两种模式的区别在于值的增加这一动作发生的准确时间不同。对于前缀运算符，先执行自增或自减运算，再计算表达式的值，而后缀运算符，则先计算表达式的值，再执行自增或自减运算。 <br>
 &emsp;&emsp;我们通过例子来说明： 
+* [example:src/Chapter5.c](src/Chapter5.c)
+```C
+#include<stdio.h>
+int main()
+{
+        int a,b;
+        a=b=5;
+        printf("%d      %d\n",a--,--b);
+        printf("%d      %d\n",a--,--b);
+        printf("%d      %d\n",a--,--b);
+        printf("%d      %d\n",a--,--b);
+        printf("%d      %d\n",a--,--b);
+        return 0;
+}
+``` 
+&emsp;&emsp;编译运行结果如下
+```sh
+$ cc Chapter5.c -o Chapter5                                           
+$ ./Chapter5                                                          
+5      4
+4      3
+3      2
+2      1
+1      0
+```
+&emsp;&emsp;这个程序5次将变量a和b减1，您可以通过这个结果来理解前缀和后缀的区别。 <br>
+&emsp;&emsp;需要提醒一下的是，++与--是单目运算符，即一个操作对象，而这个操作对象只能为变量，因为，常量不可以被赋值。<br>
 
-<!--TODO:FUCK-->
+|运算符|符号|操作|用例|结果|
+|---|---|---|---|---|
+|加法|+|使它两侧的值加到一起|1+2|3|
+|减法|-|从它前面的数减去后面的数|5-3|2|
+|乘法|*|将它前面的数乘以后面的数|2*3|6|
+|除法|/|用它左边的值除以右边的值|8/3|2(整数的除法会丢掉小数部分)|
+|取模|%|求用它左边的值除以右边的数后的余数|5%3|2(%运算符两侧的操作数必须为整数)|
+
+&emsp;&emsp;举个栗子:
+* [example:src/Chapter5_1.c](src/Chapter5_1.c)
+```C
+#include<stdio.h>
+
+int main()
+{
+    int a=20;
+    int b=5;
+    int c=6;
+    printf("a = %d b = %d c = %d\n",a,b,c);
+    printf("a + b = %d\n",a+b);
+    printf("a - c = %d\n",a-c);
+    printf("a * b = %d\n",a*b);
+    printf("a / c = %d\n",a/c);
+    printf("a %% c = %d\n",a%c);/*两个%才会输出一个%*/
+    return 0;
+}
+```
+&emsp;&emsp;编译运行结果如下<br>
+```sh
+$ cc Chapter5_1.c -o Chapter5_1 
+$ ./Chapter5_1                                 
+a = 20 b = 5 c = 6
+a + b = 25
+a - c = 14
+a * b = 100
+a / c = 3
+a % c = 2
+```
+&emsp;&emsp;请大家自己实验一下<br>
+
+---
+2018.7.29 21:59
