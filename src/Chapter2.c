@@ -2,8 +2,9 @@
 #include <stdio.h> /* 包含另一个文件 */
 int main(void)/*主函数*/
 { 
+    int num;/*声明num*/
     printf("Hello World\n");/*调用printf()函数*/
-    int num=100;/*声明num并赋初值100*/
+    num=100;/*给num赋值100*/
     printf("%d\n",num);/*打印变量num*/
     return 0;/*一切正常,返回0*/
 }
