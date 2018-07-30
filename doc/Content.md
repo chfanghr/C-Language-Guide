@@ -28,3 +28,5 @@
 - [**Chapter25 宏定义**](Chapter25.md)<br>
 - [**Chapter26 文件包含**](Chapter26.md)<br>
 - [**Chapter27 条件编译**](Chapter27.md)<br>
+- [**Chapter28 其他与处理命令**](Chapter28.md)<br>
+- [**Chapter29 标准输入输出**](Chapter29.md)
