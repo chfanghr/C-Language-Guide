@@ -22,3 +22,6 @@
 - [**Chapter19 数组与指针**](Chapter19.md)<br>
 - [**Chapter20 字符串与指针**](Chapter20.md)<br>
 - [**Chapter21 结构体的定义和使用**](Chapter21.md)<br>
+- [**Chapter22 结构体的高级使用**](Chapter22.md)<br>
+- [**Chapter23 共用体的定义和使用**](Chapter23.md)<br>
+- [**Chapter24 使用typedef定义类型**](Chapter24.md)<br>
