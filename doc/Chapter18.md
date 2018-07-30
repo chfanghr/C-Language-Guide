@@ -7,7 +7,7 @@
 类型说明符 *变量名;
 ``` 
 &emsp;&emsp;这里的`*`与前面的类型说明符共同说明这是一个指针变量,类型说明符表示该指针变量所指向的变量为何种数据类型,变量名即为定义的指针变量名。除此之外，C还提供`*`运算符获取地址上对应的值。 例如：
-* [example:src/Chapter18.c](src/Chapter18.c)
+* [example:src/Chapter18.c](../src/Chapter18.c)
 ```C 
 #include<stdio.h>
 int main()
@@ -22,7 +22,7 @@ int main()
 ```
 &emsp;&emsp;请亲自运行观察结果并思考。<br>
 &emsp;&emsp;值得一提的是，由于指针存放的都是地址，在32位操作系统下都在0 ~ 4,294,967,295这个数区间内，所以：在32位操作系统下，任何类型的指针变量都占四个字节！
-* [example:src/Chapter18_1.c](src/Chapter18_1.c)
+* [example:src/Chapter18_1.c](../src/Chapter18_1.c)
 ```C   
 #include<stdio.h>
 struct INFO

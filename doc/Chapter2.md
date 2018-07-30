@@ -2,7 +2,7 @@
 
 &emsp;&emsp;上一节,我们大致总揽了一个简单C程序的框架,现在我们给它添加一些内容,程序如下:
 
-* [example:src/Chapter2.c](src/Chapter2.c)
+* [example:src/Chapter2.c](../src/Chapter2.c)
 ```C
 /*一个简单的C程序*/
 #include <stdio.h> /* 包含另一个文件 */

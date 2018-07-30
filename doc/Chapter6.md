@@ -5,7 +5,7 @@
 ## 常年被人误认为函数的关键字`sizeof` 
 &emsp;&emsp;`sizeof`是C语言的32个关键字之一，并非“函数”(我们会后面介绍)，也叫长度(求字节)运算符,`sizeof`是一种单目运算符，以字节为单位返回某操作数的大小，用来求某一类型变量的长度。其运算对象可以是任何数据类型或变量。 
 
-* [example:Chapter6.c](src/Chapter6.c)
+* [example:Chapter6.c](../src/Chapter6.c)
 ```C
 #include<stdio.h>
 int main()

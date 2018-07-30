@@ -34,7 +34,7 @@ num=2014；
 ### 增量和减量运算符： `++`和`--` 
 &emsp;&emsp;“增量运算符”(increment operator)完成简单的任务，即将其操作数的值增加1。这个运算符以两种方式出现。在第一种方式中，`++`出现在它作用的变量的前面，这是前缀(prefix)模式.在第二种方式中，`++`出现在它作用的变量的后面，这是后缀(postfix)模式。这两种模式的区别在于值的增加这一动作发生的准确时间不同。对于前缀运算符，先执行自增或自减运算，再计算表达式的值，而后缀运算符，则先计算表达式的值，再执行自增或自减运算。 <br>
 &emsp;&emsp;我们通过例子来说明： 
-* [example:src/Chapter5.c](src/Chapter5.c)
+* [example:src/Chapter5.c](../src/Chapter5.c)
 ```C
 #include<stdio.h>
 int main()
@@ -71,7 +71,7 @@ $ ./Chapter5
 |取模|%|求用它左边的值除以右边的数后的余数|5%3|2(%运算符两侧的操作数必须为整数)|
 
 &emsp;&emsp;举个栗子:
-* [example:src/Chapter5_1.c](src/Chapter5_1.c)
+* [example:src/Chapter5_1.c](../src/Chapter5_1.c)
 ```C
 #include<stdio.h>
 
