@@ -25,3 +25,6 @@
 - [**Chapter22 结构体的高级使用**](Chapter22.md)<br>
 - [**Chapter23 共用体的定义和使用**](Chapter23.md)<br>
 - [**Chapter24 使用typedef定义类型**](Chapter24.md)<br>
+- [**Chapter25 宏定义**](Chapter25.md)<br>
+- [**Chapter26 文件包含**](Chapter26.md)<br>
+- [**Chapter27 条件编译**](Chapter27.md)<br>
