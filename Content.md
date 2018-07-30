@@ -6,3 +6,5 @@
 - [**Chapter3 变量与常量数据**](Chapter3.md)<br>
 - [**Chapter4 数据类型和关键字**](Chapter4.md)<br>
 - [**Chapter5 基本运算符**](Chapter5.md)<br>
+- [**Chapter6 其他运算符**](Chapter6.md)<br>
+- [**Chapter7 表达式和语句**](Chapter7.md)<br>
